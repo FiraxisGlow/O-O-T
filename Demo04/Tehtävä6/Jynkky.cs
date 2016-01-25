@@ -20,30 +20,8 @@ namespace Tehtävä6
 {
     class Jynkky
     {
-        //properties
-        private int magazine;
-        private readonly double min = 0;
-        private readonly double max = 250;
-        public int Magazine
-        {
-            get
-            {
-                return Magazine;
-            }
-
-            set
-            {
-                Magazine = magazine;
-                if (magazine > max)
-                    Console.WriteLine("Hyllyyn ei mahdu enempää lehtiä, hanki lisää säilytystilaa.");
-                else
-                    Console.WriteLine("Sinulla on " + magazine + " lehteä.");
-                if (magazine < min)
-                    Console.WriteLine("Et omista jynkkyä, ainakaan fyysisten lehtien muodossa.");
-                else
-                    Console.WriteLine("Sinulla on" + magazine + " jynkky lehteä");
-            }
-        }
+     
+    
         //properties
         private int video;
         private readonly int minv = 0;
@@ -66,7 +44,16 @@ namespace Tehtävä6
                     Console.WriteLine("Et omista jynkkyä, ainakaan fyysisesten videoiden muodossa.");
                 else
                     Console.WriteLine("Sinulla on" + video + " jynkky videota.");
+
             }
         }
+
+        public override string ToString()
+        {
+            return video.ToString();
+         
+            
+        }
+
     }
 }

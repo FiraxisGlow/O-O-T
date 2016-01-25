@@ -23,7 +23,7 @@ namespace Tehtävä6
         static void Main(string[] args)
         {
           
-            Jynkky jynkky1 = new Jynkky();
+            Jynkky2 jynkky1 = new Jynkky2();
             Console.Write("Syötä jynkky lehtiesi määrä hyllyssä. ");
             string magazine = Console.ReadLine();
             int mag = int.Parse(magazine);
@@ -51,7 +51,10 @@ namespace Tehtävä6
             sarjakuva.Comic = comic;
             Console.ReadLine();
 
-
+            Console.WriteLine(video.ToString);
+            Console.WriteLine(magazine.ToString);
+            Console.WriteLine(comic.ToString);
+            Console.WriteLine(alko.ToString);
         }
     }
 }
