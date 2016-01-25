@@ -26,6 +26,7 @@ namespace Tehtävä6
         private int magazine;
         private readonly double min = 0;
         private readonly double max = 250;
+
         public int Magazine
         {
             get
