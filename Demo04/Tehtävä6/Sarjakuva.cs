@@ -1,4 +1,16 @@
-﻿using System;
+﻿/*
+* Copyright (C) Anton Kiri
+*
+*
+* Olio-ohjelmointi
+*
+*
+* 11.02.16
+* Anton Kiri
+*/
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
