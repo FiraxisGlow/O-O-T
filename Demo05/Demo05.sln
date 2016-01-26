@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawApplication", "DrawApplication\DrawApplication.csproj", "{5F406B14-D81B-4C56-BCB8-9D8BA781D144}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleApp", "VehicleApp\VehicleApp.csproj", "{762901C7-E344-4553-8229-B5D9F57E9D3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtävä4", "Tehtävä4\Tehtävä4.csproj", "{0FB9125F-0AFD-4020-8F8C-2E936F0085DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{762901C7-E344-4553-8229-B5D9F57E9D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{762901C7-E344-4553-8229-B5D9F57E9D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{762901C7-E344-4553-8229-B5D9F57E9D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB9125F-0AFD-4020-8F8C-2E936F0085DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB9125F-0AFD-4020-8F8C-2E936F0085DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB9125F-0AFD-4020-8F8C-2E936F0085DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB9125F-0AFD-4020-8F8C-2E936F0085DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
