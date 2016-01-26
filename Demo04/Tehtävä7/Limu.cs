@@ -15,18 +15,18 @@ namespace Tehtävä7
             {
             }
 
-            public Jaffa(string firstname, string lastname, string limu)
-                : base(firstname, lastname)
+            public Jaffa(string Name, string Volyme, string limu)
+                : base(Name, Volyme)
             {
-                 = limu;
+               Sugar = limu;
             }
-            public void TeacherMethod()
+            public void LimuMethod()
             {
-                Console.WriteLine("Teacher is wasting student time...");
+                Console.WriteLine("Softdrink is ready for consumption.");
             }
             public override string ToString()
             {
-                return base.ToString() + " " + Room;
+                return base.ToString();
             }
         }
 }

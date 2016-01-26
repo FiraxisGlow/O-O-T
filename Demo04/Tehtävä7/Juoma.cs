@@ -22,7 +22,7 @@ namespace Tehtävä7
             Name = name;
             Volyme = volyme;
         }
-        public void PersonMethod()
+        public void DrinkMethod()
         {
             Console.WriteLine("The drink is ready for consumption.");
         }

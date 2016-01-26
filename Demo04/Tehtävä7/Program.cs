@@ -16,13 +16,15 @@ namespace Tehtävä7
             Console.WriteLine(drink.ToString());
 
             Alkoholi alcohol = new Alkoholi("Karhu", 0.33, "4,5%");
+            
             Console.WriteLine(alcohol.ToString());
 
-            
+
+            Limu jaffa = new Limu();
 
             Console.WriteLine("Press enter key to continue...");
             Console.ReadLine();
-
+           
 
         }
     }

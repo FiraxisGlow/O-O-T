@@ -11,12 +11,12 @@ namespace Tehtävä7
         public string Strength { get; set; }
 
 
-        public Student()
+        public Alkoholi()
         {
         }
 
-        public Student(string Name, string Volyme, string strength) 
-            : base(Name, Volyme)
+        public Alkoholi(string Name, string Volyme, string strength) 
+            :base (Name, Volyme)
         {
             Strength = strength;
         }
