@@ -9,7 +9,7 @@ namespace VehicleApp
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
             // create tyres
             Tyres tyre = new Tyres { Name = "Nokia", Model ="Hakkpaeliitta", Size = "205R16" };
 
