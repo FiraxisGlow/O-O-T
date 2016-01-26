@@ -36,10 +36,11 @@ namespace Tehtävä5
 
             set
             {
+                hz = value;
                 if (minhz <= Freaquency)
                     if (maxhz <= Freaquency)
-                        hz = value;
-                Console.WriteLine("Taajuus on: " + hz);
+
+                        Console.WriteLine("Taajuus on: " + hz);
 
                 if (Freaquency > maxhz)
                     hz = maxhz;
@@ -57,7 +58,7 @@ namespace Tehtävä5
                 }
             }
 
-        }    
+        }
 
         public override string ToString()
         {

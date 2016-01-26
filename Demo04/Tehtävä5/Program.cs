@@ -39,7 +39,7 @@ namespace Tehtävä5
             Console.Write("Anna äänenvoimakkuus jolla kuunnella:");
             string vol = Console.ReadLine();
             int Volyme = int.Parse(vol);
-            vol.Volyme = volyme;
+            volyme.Vol = vol;
 
             
         }

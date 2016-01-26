@@ -34,19 +34,20 @@ namespace Tehtävä5
             }
             set
             {
-                if (maxvolyme > vol)
-                    if (minvolyme < vol)
-                        volyme = value;
+                volyme = value;
+                if (maxvolyme > volyme)
+                    if (minvolyme < volyme)
+                        
                     Console.WriteLine("Äänenvoimakkuus on: " + volyme);
                     else
                     {
-                        if (Vol > maxvolyme)
-                            if (Vol < minvolyme)
+                        if (volyme > maxvolyme)
+                            if (volyme < minvolyme)
                                 Console.WriteLine("Radio ei tue tätä äänenvoimakkuutta");
                     }
-                }
+                
             }
-        }
+        
         }
 
         public override string ToString()
