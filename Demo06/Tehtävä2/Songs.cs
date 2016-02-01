@@ -6,28 +6,29 @@ using System.Threading.Tasks;
 
 namespace Tehtävä2
 {
-    class Songs  //: Song
+    class Songs 
     {
+        public string Name { get; set; }
+        public string Artist { get; set; }
+        public string Lenght { get; set; }
 
-        List<Song> songs;
+        /// <summary>
+        /// constructor
+        /// </summary>
         public Songs()
         {
-            songs = new List<Song>();
+            Name = "Unknown track";
+            Artist = "Unknown artist";
+            Lenght = "<N/A>";
         }
 
-        public void AddSong(Song song)
-        {
-            songs.Add(song);
-        }      
-
-
-
-
+        /// <summary>
+        /// return song data via override
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
-           
-            return songs;
-           
+            return " - Song name: " + Name + " --- Artist: " + Artist + " --- Lenght: " + Lenght;
         }
     }
 }
