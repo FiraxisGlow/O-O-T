@@ -31,7 +31,7 @@ namespace Tehtävä2
                 {
                     outputFile1.WriteLine(luku);
                 }
-            } while (luku3 == false );
+            } while (luku3 == false);
 
             do
             {
