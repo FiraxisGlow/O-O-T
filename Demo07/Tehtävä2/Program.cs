@@ -12,7 +12,10 @@ namespace Tehtävä2
         static void Main(string[] args)
         {
 
+
             string line = null;
+            bool luku3;
+            bool luku4;
             //adding outputfiles.
             StreamWriter outputFile2 = new StreamWriter(@"d:\T2Int.txt");
             StreamWriter outputFile1 = new StreamWriter(@"d:\T2Float.txt");
@@ -23,16 +26,32 @@ namespace Tehtävä2
             line = Console.ReadLine();
             do {
                 int luku;
-                int.TryParse(line, out luku);
-            } while (!line.Equals("") );
+                luku3 = int.TryParse(line, out luku);
+                if (luku3 == true)
+                {
+                    outputFile1.WriteLine(luku);
+                }
+            } while (luku3 == false );
 
             do
             {
                 float luku2;
-                float.TryParse(line, out luku2);
-            } while (!line.Equals("") );
+             luku4 =   float.TryParse(line, out luku2);
+                if (luku4 == true)
+                {
+                    outputFile2.Write(luku2);
+                }
+            } while (luku4 == false );
             
-           
+           try
+            {
+                //avataan tiedosto
+                string text1 = File.ReadAllText(@"d:\T2Int.txt");
+                string text2 = File.ReadAllText(@"d:\T2Float.txt");
+            } catch (FileNotFoundException)
+            {
+                Console.WriteLine("File not found");
+            }
 
         }
     }
