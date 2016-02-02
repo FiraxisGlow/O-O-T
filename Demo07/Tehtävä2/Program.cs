@@ -24,13 +24,13 @@ namespace Tehtävä2
             do {
                 int luku;
                 int.TryParse(line, out luku);
-            } while (!line.Equals = );
+            } while (!line.Equals("") );
 
             do
             {
                 float luku2;
                 float.TryParse(line, out luku2);
-            } while (!line.Equals = );
+            } while (!line.Equals("") );
             
            
 
