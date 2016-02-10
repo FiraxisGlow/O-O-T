@@ -47,7 +47,7 @@ namespace Tehtävä1
         }
         private void button2_Click(object sender, RoutedEventArgs e)
         {
-
+            if((bool))
         }
 
     

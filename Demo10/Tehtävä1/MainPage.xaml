@@ -14,8 +14,8 @@
         </Grid.ColumnDefinitions>
         
         <StackPanel Grid.Column="0">
-            <CheckBox Content="Canned Tuna" Checked="CheckBox_Checked"/>
-            <CheckBox Content="Lemons"/>
+            <CheckBox x:Name="tunaCheckbox" Content="Canned Tuna" Checked="CheckBox_Checked"/>
+            <CheckBox x:Name="lemonCheckbox" Content="Lemons"/>
             <CheckBox Content="Beer"/>
             <CheckBox Content="Koskenkorva viina"/>
             <CheckBox Content="Jallu"/>
