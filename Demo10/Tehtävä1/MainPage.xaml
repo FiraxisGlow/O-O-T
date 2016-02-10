@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="Tehtävä1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Tehtävä1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Width="800" Height="600">
+
+    <Grid Background="Orange">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width= "300"/>
+            <ColumnDefinition Width = "300"/>
+        </Grid.ColumnDefinitions>
+        
+        <StackPanel Grid.Column="0">
+            <CheckBox Content="Canned Tuna" Checked="CheckBox_Checked"/>
+            <CheckBox Content="Lemons"/>
+            <CheckBox Content="Beer"/>
+            <CheckBox Content="Koskenkorva viina"/>
+            <CheckBox Content="Jallu"/>
+            <Button x:Name="button1" Content = "Buy" Click="button1_Click"/>
+            <TextBlock Text="Shopping List:"/>
+            <TextBox x:Name="shoppinglistTextBox1" Height="Auto"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <CheckBox Content="Macaroni"/>
+            <CheckBox Content="Ketchup"/>
+            <CheckBox Content="Mustard"/>
+            <CheckBox Content="Sausage"/>
+            <CheckBox Content="Frozen Pizza"/>
+            <Button x:Name="button2" Content = "Buy" Click="Button_Click"/>
+            <TextBlock Text="Shopping List:"/>
+            <TextBox x:Name="shoppinglistTextBox2" Height ="Auto"/>
+        </StackPanel>
+        
+    </Grid>
+</Page>
